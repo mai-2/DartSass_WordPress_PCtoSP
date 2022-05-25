@@ -1,4 +1,4 @@
-# DartSass_WordPress_SPtoPC
+# DartSass_WordPress_PCtoSP
 
 ## 構成
 - WordPressTheme
