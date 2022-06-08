@@ -6,7 +6,6 @@
 - gulpfile.js
 - package.json
 - .gitignore
-- index.php
 
 ## WordPressThemeは必要に応じて変更してください
 - ディレクトリ「WordPressTheme」
