@@ -77,12 +77,9 @@ a {
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease;
-  opacity: 1;
 }
 a:hover {
-  @include mq('lg') {
-    opacity: 1;
-  }
+  opacity: 0.8;
 }
 a[href^="tel:"] {
   @include mq("md") {
