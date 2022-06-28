@@ -10,6 +10,7 @@ $padding-pc: 25px;
 $padding-sp: 20px;
 // ※PC時：デザインカンプの余白の幅ではない。PC時は通常25pxで大丈夫！
 
+
 ////////////////////
 // フォント設定
 ////////////////////
@@ -22,6 +23,7 @@ body {
   font-family: $font-main;
 }
 
+
 ////////////////////
 // 色の指定
 ////////////////////
@@ -33,6 +35,20 @@ $white: #fff;
 body {
   color: $black;
 }
+
+
+////////////////////
+// レイヤー設定
+////////////////////
+$layer-modal: 100;
+$layer-drawer: 40;
+$layer-floating: 30;
+$layer-header: 20;
+$layer-footer: 10;
+$layer-up: 2;
+$layer-default: 1;
+$layer-background: -1;
+
 
 ////////////////////
 // メディアクエリとブレークポイントの設定
@@ -67,6 +83,7 @@ $mediaquerys: (
 @function rem($pixels) {
   @return math.div($pixels, 16) * 1rem;
 }
+
 
 ////////////////////
 // 非表示設定
