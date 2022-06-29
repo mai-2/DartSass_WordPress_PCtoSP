@@ -91,15 +91,18 @@ $mediaquerys: (
 
 //768px以上を表示
 .u-desktop {
-  display: none;
-  @include mq('lg') {
-    display: block;
+  display: block;
+  
+  @include mq('md') {
+    display: none;
   }
 }
 
 //モバイルのみ表示
 .u-mobile {
-  @include mq('lg') {
-    display: none;
+  display: none;
+
+  @include mq('md') {
+    display: block;
   }
 }
