@@ -82,8 +82,9 @@ a:hover {
   opacity: 0.8;
 }
 a[href^="tel:"] {
+  pointer-events: none;
   @include mq("md") {
-    pointer-events: none;
+    pointer-events: auto;
   }
 }
 
